@@ -3,6 +3,108 @@
   font-style: normal;
 }
 
+body {
+  background-color: hsl(0, 0%, 90%);
+}
+
+.card {
+  display: flex;
+  background-color: hsl(0, 0%, 100%);
+  flex-direction: column;
+  width: 100%;
+  padding: 8px;
+  padding-left: 5px;
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  margin-block: 100px;
+  box-shadow: 4 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.TonicHeader {
+  font-weight: 700;
+  font-size: 32px;
+  color: hsl(218, 54%, 20%);
+}
+
+.HeaderTitle {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.tonic-image {
+  width: 95%;
+  object-fit: contain;
+  margin-right: 10px;
+}
+
+.tonic-title {
+  margin: 0;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: hsl(218, 31%, 30%);
+}
+
+.TonicEnd {
+  margin: 0 10px;
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 0.2;
+  line-height: 16px;
+  color: hsl(218, 14%, 54%);
+}
+
+.counter {
+  width: 10px;
+  height: 10px;
+  margin: 5px 11px;
+}
+
+.Content {
+  margin-bottom: 20px;
+}
+
+.Content p {
+  padding-left: 1px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #344563;
+}
+
+.ButtonGroup {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 13px;
+}
+
+.ButtonGroup button {
+  margin-right: 10px;
+  padding: 2px 15px;
+  border: none;
+  border-radius: 15px;
+  font-size: 12px;
+  background-color: #ccc;
+  cursor: pointer;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  color: hsl(234, 100%, 69%);
+}
+
+/* Style the "See Project" button */
+.See-more button {
+  padding: 10px 20px;
+  font-size: 17px;
+  font-weight: bold;
+  color: hsl(223, 88%, 59%);
+  cursor: pointer;
+  text-align: center;
+  background-color: hsl(0, 0%, 100%);
+  border: 1px solid hsl(223, 12%, 89%);
+  border-radius: 16px;
+}
+
 .social {
   list-style: none;
   position: absolute;
@@ -77,32 +179,28 @@ ul {
   justify-content: flex-start;
 }
 
-button {
-  margin-top: 13px;
-  border-radius: 7px;
-  border-color: hsl(223, 88%, 59%);
-}
-
 .MyResume {
   width: 200px;
-  height: 55px;
+  height: 43px;
+  padding-top: 10px;
   flex: none;
   order: 0;
   flex-grow: 0;
-  margin: 20px 0;
+  margin: 30px 0;
 }
 
 .MyResume button {
   color: hsl(223, 88%, 59%);
   font-family: 'Poppins', sans-serif;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 17px;
-  line-height: 24px;
   display: flex;
   align-items: center;
   text-align: center;
   letter-spacing: 0.03em;
+  border: 1px solid hsl(223, 12%, 89%);
+  border-radius: 16px;
 }
 
 .ListProgramming1 {
@@ -234,7 +332,7 @@ button {
     flex-wrap: wrap;
     justify-content: start;
     align-items: start;
-    margin: 20px 0;
+    margin: 20px 60px;
   }
 
   .socialMediaGroup + div {
