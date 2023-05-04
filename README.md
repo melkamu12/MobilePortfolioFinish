@@ -53,25 +53,63 @@ To get a local copy up and running, follow these steps.
 ### Prerequisites
 
 In order to run this project you need:
+-Vscode
 
-- should have code editors like Vscode
+- npm
+- Node.js
+- Terminal
+- Code editor
+- Linters files
+- Flexbox
+- Figma templates
+- Media queries
+
+Example command:
+
+```sh
+  npx stylelint "**/*.{css,scss}"
+```
 
 ### Setup
 
 Clone this repository to your desired folder:
 
+Example commands:
+
+```sh
+  cd my-folder
+  git clone git@github.com:melkamu12/MobilePortfolioFinish.git
+```
+
 ### Install
 
-Install this project with command line of vs-code:
-npm install
+Install this project with:
+
+Example command:
+
+```sh
+  npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x
+```
 
 ### Usage
 
-run the project on your broweser
+To run the project, execute the following command:
+
+Example command:
+
+```sh
+  npm init -y
+```
 
 ### Run tests
 
 To run tests, run the following command:
+
+Example command:
+
+```sh
+  npx stylelint "**/*.{css,scss}"
+```
 
 ### Deployment
 
@@ -90,8 +128,9 @@ you can deploy using the appropriate tools and platforms, you can deploy your pr
 
 ## Future Features
 
-- write java script
-- add Contact Form
+- [ ] **[Make-website-responsive-to-desktop]**
+- [ ] **[Adding-Contact-Form]**
+- [ ] **[Working-java-script]**
 
 ## ⭐️ Show your support <a name="support"></a>
 
@@ -110,7 +149,5 @@ I would like to thank microverse staff and reviewer...
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
