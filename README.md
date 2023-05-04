@@ -7,6 +7,9 @@
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -15,9 +18,11 @@
   - [Run tests](#run-tests)
   - [Deployment](#deployment)
 - [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
+
 <!-- PROJECT DESCRIPTION -->
 
 # 📖 [Portfolio mobile version finish] <a name="about-project"></a>
@@ -39,6 +44,18 @@
 - writing javascript
 - working with accordian
 
+## 💻 Getting Started <a name="getting-started"></a>
+
+> Describe how a new developer could make use of your project.
+
+To get a local copy up and running, follow these steps.
+
+### Prerequisites
+
+In order to run this project you need:
+
+- should have code editors like Vscode
+
 ### Setup
 
 Clone this repository to your desired folder:
@@ -55,6 +72,10 @@ run the project on your broweser
 ### Run tests
 
 To run tests, run the following command:
+
+### Deployment
+
+you can deploy using the appropriate tools and platforms, you can deploy your project and make it available to the world.
 
 <!-- AUTHORS -->
 
