@@ -17,11 +17,12 @@
 - [👥 Authors](#authors)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
+- [📝 License](#license)
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Hello-Microverse] <a name="about-project"></a>
+# 📖 [Portfolio mobile version finish] <a name="about-project"></a>
 
-> mobile version portfilio.
+> Portfolio mobile version tell about myself, links with the social network address, works on accordian, button and text, image and totally design multiple 5 cards with different figma in one file.
 
 **[Portfilio]** portfilio project
 
@@ -29,14 +30,14 @@
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> HTML, CSS
+> HTML, CSS and javaScript
 
 ## Key Features
 
 - write cascide style sheet
 - include image of social network icon
 - writing javascript
-- working with accoridan
+- working with accordian
 
 ### Setup
 
@@ -82,5 +83,13 @@ If you like this project clone on your project working space
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 I would like to thank microverse staff and reviewer...
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
+_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
