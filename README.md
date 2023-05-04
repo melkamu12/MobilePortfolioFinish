@@ -35,7 +35,8 @@
 
 - write cascide style sheet
 - include image of social network icon
-- page is render on screen size of 768px
+- writing javascript
+- working with accoridan
 
 ### Setup
 
@@ -68,8 +69,7 @@ To run tests, run the following command:
 ## Future Features
 
 - write java script
-- add popup modal
-- add contact section
+- add Contact Form
 
 ## ⭐️ Show your support <a name="support"></a>
 
