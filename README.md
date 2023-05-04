@@ -16,7 +16,6 @@
   - [Install](#install)
   - [Usage](#usage)
   - [Run tests](#run-tests)
-  - [Deployment](#deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [⭐️ Show your support](#support)
@@ -108,10 +107,6 @@ Example command:
 ```sh
   npx stylelint "**/*.{css,scss}"
 ```
-
-### Deployment
-
-you can deploy using the appropriate tools and platforms, you can deploy your project and make it available to the world.
 
 <!-- AUTHORS -->
 
