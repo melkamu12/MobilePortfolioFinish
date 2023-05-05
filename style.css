@@ -9,6 +9,11 @@ body {
 
 .continer {
   display: grid;
+  gap: 12px;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 16px;
+  padding: 16px;
 }
 
 .card {
@@ -105,16 +110,18 @@ body {
 .skill-box {
   list-style: none;
   display: flex;
+  flex-direction: row;
+  align-items: center;
   padding-inline-start: 0;
   gap: 8px;
   order: 0;
 }
 
 .skill-box li {
-  border-radius: 10px;
   font-size: 17px;
-  padding: 0 10px;
-  background-color: #ccc;
+  padding: 4px 10px;
+  border-radius: 8px;
+  background-color: hsl(240, 100%, 96%);
   cursor: pointer;
   text-align: center;
   color: hsl(234, 100%, 69%);
