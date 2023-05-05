@@ -1,6 +1,9 @@
 <a name="readme-top"></a>
 
-<div align="center">  <br/>
+<div align="center">
+
+  <h3> 🗺️ <b> Mobile Portfolio Finish</b> 🗺️</h3>
+
 </div>
 <!-- TABLE OF CONTENTS -->
 
@@ -18,6 +21,7 @@
   - [Run tests](#run-tests)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
@@ -89,14 +93,15 @@ Example command:
 ```
 
 ### Usage
-
 To run the project, execute the following command:
-
-Example command:
+  >Example command:
 
 ```sh
   npm init -y
 ```
+> <p> Open terminal on the same directory of project </p>
+> <p> write "npm start"</p>
+> <p> open http://localhost:3000/ in browser </p>
 
 ### Run tests
 
@@ -124,6 +129,14 @@ Example command:
 - [ ] **[Make-website-responsive-to-desktop]**
 - [ ] **[Adding-Contact-Form]**
 - [ ] **[Working-java-script]**
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/melkamu12/MobilePortfolioFinish.git).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## ⭐️ Show your support <a name="support"></a>
 
