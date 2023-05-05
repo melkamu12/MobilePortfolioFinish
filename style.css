@@ -11,37 +11,62 @@ body {
   display: flex;
   background-color: hsl(0, 0%, 100%);
   flex-direction: column;
-  width: 100%;
-  padding: 8px;
-  padding-left: 5px;
+  padding: 16px;
   border: 1px solid #ccc;
   border-radius: 30px;
   margin-block: 100px;
   box-shadow: 4 2px 5px rgba(0, 0, 0, 0.3);
 }
 
+.about-me {
+  font-weight: 700;
+  font-weight: bold;
+  font-size: 50px;
+  margin: 2px;
+  align-items: center;
+  color: hsl(218, 54%, 20%);
+}
+
+.AboutContent {
+  padding-left: 1px;
+  font-weight: 400;
+  font-size: 17px;
+  color: #344563;
+}
+
+.connect {
+  color: #7f8cff;
+  font-size: 20px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+/* Work Section Project */
 .TonicHeader {
   font-weight: 700;
-  font-size: 32px;
+  font-weight: bold;
+  font-size: 35px;
+  margin: 7px;
+  font-family: 'Poppins', sans-serif;
   color: hsl(218, 54%, 20%);
 }
 
 .HeaderTitle {
   display: flex;
   align-items: center;
-  margin-bottom: 10px;
+  margin: 1px;
 }
 
 .tonic-image {
   width: 95%;
   object-fit: contain;
-  margin-right: 10px;
 }
 
 .tonic-title {
   margin: 0;
   font-weight: 600;
-  font-size: 13px;
+  font-size: 15px;
   line-height: 16px;
   color: hsl(218, 31%, 30%);
 }
@@ -56,69 +81,105 @@ body {
 }
 
 .counter {
-  width: 10px;
-  height: 10px;
+  width: 8px;
+  height: 8px;
   margin: 5px 11px;
 }
 
 .Content {
-  margin-bottom: 20px;
+  margin-bottom: 3px;
 }
 
 .Content p {
   padding-left: 1px;
+  font-family: 'Poppins', sans-serif;
   font-weight: 400;
-  font-size: 15px;
-  line-height: 24px;
+  font-size: 17px;
   color: #344563;
 }
 
-.ButtonGroup {
+.skill-box {
+  list-style: none;
   display: flex;
-  justify-content: center;
-  margin-bottom: 13px;
+  padding-inline-start: 0;
+  gap: 8px;
+  order: 0;
 }
 
-.ButtonGroup button {
-  margin-right: 10px;
-  padding: 2px 15px;
-  border: none;
-  border-radius: 15px;
-  font-size: 12px;
+.skill-box li {
+  border-radius: 10px;
+  font-size: 17px;
+  padding: 0 10px;
   background-color: #ccc;
   cursor: pointer;
-  font-weight: 500;
-  letter-spacing: 0.03em;
+  text-align: center;
   color: hsl(234, 100%, 69%);
 }
 
-/* Style the "See Project" button */
-.See-more button {
-  padding: 10px 20px;
-  font-size: 17px;
-  font-weight: bold;
-  color: hsl(223, 88%, 59%);
-  cursor: pointer;
-  text-align: center;
-  background-color: hsl(0, 0%, 100%);
-  border: 1px solid hsl(223, 12%, 89%);
-  border-radius: 16px;
+/* Language */
+.Skill-border {
+  border-bottom: 1px solid #dfe1e6;
 }
 
+.languages-elements li {
+  list-style-type: none;
+  background-color: #f7f7f9;
+  border-radius: 0.8rem;
+  display: flex;
+  align-items: center;
+  gap: 2.4rem;
+}
+
+.skill {
+  list-style: none;
+  margin-bottom: 2px;
+  padding-left: 0;
+}
+
+.skill-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.skill-heading {
+  font-weight: 600;
+  font-size: 20px;
+  width: 100%;
+  padding-bottom: 1px;
+}
+
+.languages-elements {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-inline-start: 0;
+}
+
+.Language-Logo {
+  width: 70px;
+  height: 70px;
+  list-style: none;
+}
+
+.javaScript-logo {
+  border-radius: 90px;
+}
+
+.languages-elements li p {
+  color: #253858;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+/* Social network Icon */
 .social {
   list-style: none;
-  position: absolute;
-  left: 0;
+  padding-left: 0;
   display: flex;
-  gap: 16px;
+  gap: 8px;
   margin: 0;
-  justify-content: start;
-  align-items: start;
-}
-
-ul {
-  display: block;
-  padding-left: 10px;
+  margin: 15px 0;
 }
 
 .social li:last-child {
@@ -129,281 +190,38 @@ ul {
   margin-left: 0;
 }
 
-.accordion-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+.btnResume {
+  padding: 10px 15px;
+  border-radius: 8px;
+  color: hsl(234, 100%, 69%);
+  background-color: hsl(0, 0%, 100%);
+  outline: none;
+  border: 1px solid #396df2;
+  width: fit-content;
   cursor: pointer;
-  padding: 10px;
-  border: 1px solid #ccc;
-}
-
-.accordion-header span:first-child {
-  flex: 1; /* Make the first span take up remaining space */
-}
-
-.icon {
-  font-size: 1.5rem;
-  transition: transform 0.2s ease;
-  order: 2;
-}
-
-.icon.rotate {
-  transform: rotate(90);
-}
-
-.accordion-content {
-  padding: 10px;
-  border: 1px solid #ccc;
-  display: block;
-}
-
-.accordion-header.active .icon {
-  transform: rotate(90deg);
-}
-
-.accordion-header.active + .accordion-content {
-  display: block;
-}
-
-.socialMediaGroup {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: start;
-  align-items: start;
-  margin: 20px 0;
-}
-
-.socialMediaGroup + div {
-  display: flex;
-  justify-content: flex-start;
-}
-
-.MyResume {
-  width: 200px;
-  height: 43px;
-  padding-top: 10px;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-  margin: 30px 0;
-}
-
-.MyResume button {
-  color: hsl(223, 88%, 59%);
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 600;
   font-size: 17px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.03em;
-  border: 1px solid hsl(223, 12%, 89%);
-  border-radius: 16px;
+  font-weight: 600;
+  margin-left: 5px;
 }
 
-.ListProgramming1 {
-  display: flex;
-  align-items: center;
-  width: 100%;
-  height: 66.72px;
-  background: hsl(240, 14%, 97%);
+.btnResume:hover {
+  background-color: hsl(234, 100%, 69%);
+}
+
+.btnResume:enabled {
+  background: hsl(0, 0%, 100%);
+  border: 1px solid hsl(234, 100%, 75%);
+  cursor: pointer;
+}
+
+.btnResume:disabled :hover {
+  background-color: hsl(0, 0%, 100%);
+  cursor: pointer;
+}
+
+.btnResume:enabled:hover {
+  background: hsl(234, 100%, 69%);
+  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
   border-radius: 8px;
-}
-
-.ListProgramming2 {
-  display: flex;
-  align-items: center;
-  width: 100%;
-  margin-top: 10px;
-  height: 66.72px;
-  background: hsl(240, 14%, 97%);
-  border-radius: 8px;
-}
-
-.ListProgramming3 {
-  display: flex;
-  align-items: center;
-  width: 100%;
-  height: 66.72px;
-  margin-top: 10px;
-  background: hsl(240, 14%, 97%);
-  border-radius: 8px;
-}
-
-.bullet {
-  display: flex;
-  align-items: center;
-  margin-right: 10px;
-}
-
-.textJavascript {
-  margin: 0 15px;
-}
-
-.about-me {
-  font-weight: 700;
-  font-size: 41px;
-  line-height: 52px;
-  align-items: center;
-  color: hsl(218, 54%, 20%);
-}
-
-.connect {
-  color: #7f8cff;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-}
-
-@media (min-width: 375px) and (max-width: 768px) {
-  .about-me {
-    font-weight: 700;
-    font-size: 41px;
-    line-height: 52px;
-    align-items: center;
-    color: hsl(218, 54%, 20%);
-  }
-
-  .social {
-    list-style: none;
-    position: absolute;
-    left: 0;
-    display: flex;
-    gap: 16px;
-    margin: 0;
-    justify-content: start;
-    align-items: start;
-  }
-
-  ul {
-    display: block;
-    padding-left: 10px;
-  }
-
-  .social li:last-child {
-    margin-right: 0;
-  }
-
-  .social:first-child {
-    margin-left: 0;
-  }
-
-  .accordion-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    cursor: pointer;
-    padding: 10px;
-    border: 1px solid #ccc;
-  }
-
-  .accordion-header span:first-child {
-    flex: 1; /* Make the first span take up remaining space */
-  }
-
-  .icon {
-    font-size: 1.5rem;
-    transition: transform 0.2s ease;
-    order: 2;
-  }
-
-  .icon.rotate {
-    transform: rotate(90deg);
-  }
-
-  .accordion-content {
-    padding: 10px;
-    border: 1px solid #ccc;
-    display: block;
-  }
-
-  .accordion-header.active .icon {
-    transform: rotate(90deg);
-  }
-
-  .accordion-header.active + .accordion-content {
-    display: block;
-  }
-
-  .socialMediaGroup {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: start;
-    align-items: start;
-    margin: 20px 60px;
-  }
-
-  .socialMediaGroup + div {
-    display: flex;
-    justify-content: flex-start;
-  }
-
-  button {
-    margin-top: 13px;
-    border-radius: 7px;
-    border-color: hsl(223, 88%, 59%);
-  }
-
-  .MyResume {
-    width: 200px;
-    height: 55px;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    margin: 20px 0;
-  }
-
-  .MyResume button {
-    color: hsl(223, 88%, 59%);
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 17px;
-    line-height: 24px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.03em;
-  }
-
-  .ListProgramming1 {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    height: 66.72px;
-    background: hsl(240, 14%, 97%);
-    border-radius: 8px;
-  }
-
-  .ListProgramming2 {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    margin-top: 10px;
-    height: 66.72px;
-    background: hsl(240, 14%, 97%);
-    border-radius: 8px;
-  }
-
-  .ListProgramming3 {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    height: 66.72px;
-    margin-top: 10px;
-    background: hsl(240, 14%, 97%);
-    border-radius: 8px;
-  }
-
-  .bullet {
-    display: flex;
-    align-items: center;
-    margin-right: 10px;
-  }
-
-  .textJavascript {
-    margin: 0 15px;
-  }
+  color: #e8ebf0;
 }
