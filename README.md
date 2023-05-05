@@ -93,14 +93,15 @@ Example command:
 ```
 
 ### Usage
-
 To run the project, execute the following command:
-
-Example command:
+  >Example command:
 
 ```sh
   npm init -y
 ```
+> <p> Open terminal on the same directory of project </p>
+> <p> write "npm start"</p>
+> <p> open http://localhost:3000/ in browser </p>
 
 ### Run tests
 
