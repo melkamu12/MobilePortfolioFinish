@@ -1,27 +1,36 @@
 <a name="readme-top"></a>
 
-<div align="center">  <br/>
+<div align="center">
+
+  <h3> 🗺️ <b> Mobile Portfolio Finish</b> 🗺️</h3>
+
 </div>
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
   - [Install](#install)
   - [Usage](#usage)
   - [Run tests](#run-tests)
-  - [Deployment](#deployment)
 - [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
+- [📝 License](#license)
+
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Hello-Microverse] <a name="about-project"></a>
+# 📖 [Portfolio mobile version finish] <a name="about-project"></a>
 
-> mobile version portfilio.
+> Portfolio mobile version tell about myself, links with the social network address, works on accordian, button and text, image and totally design multiple 5 cards with different figma in one file.
 
 **[Portfilio]** portfilio project
 
@@ -29,30 +38,80 @@
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> HTML, CSS
+> HTML, CSS and javaScript
 
 ## Key Features
 
 - write cascide style sheet
 - include image of social network icon
-- page is render on screen size of 768px
+- writing javascript
+- working with accordian
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+To get a local copy up and running, follow these steps.
+
+### Prerequisites
+
+In order to run this project you need:
+-Vscode
+
+- npm
+- Node.js
+- Terminal
+- Code editor
+- Linters files
+- Flexbox
+- Figma templates
+- Media queries
+
+Example command:
+
+```sh
+  npx stylelint "**/*.{css,scss}"
+```
 
 ### Setup
 
 Clone this repository to your desired folder:
 
+Example commands:
+
+```sh
+  cd my-folder
+  git clone git@github.com:melkamu12/MobilePortfolioFinish.git
+```
+
 ### Install
 
-Install this project with command line of vs-code:
-npm install
+Install this project with:
+
+Example command:
+
+```sh
+  npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x
+```
 
 ### Usage
+To run the project, execute the following command:
+  >Example command:
 
-run the project on your broweser
+```sh
+  npm init -y
+```
+> <p> Open terminal on the same directory of project </p>
+> <p> write "npm start"</p>
+> <p> open http://localhost:3000/ in browser </p>
 
 ### Run tests
 
 To run tests, run the following command:
+
+Example command:
+
+```sh
+  npx stylelint "**/*.{css,scss}"
+```
 
 <!-- AUTHORS -->
 
@@ -67,9 +126,17 @@ To run tests, run the following command:
 
 ## Future Features
 
-- write java script
-- add popup modal
-- add contact section
+- [ ] **[Make-website-responsive-to-desktop]**
+- [ ] **[Adding-Contact-Form]**
+- [ ] **[Working-java-script]**
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/melkamu12/MobilePortfolioFinish.git).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## ⭐️ Show your support <a name="support"></a>
 
@@ -82,5 +149,11 @@ If you like this project clone on your project working space
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 I would like to thank microverse staff and reviewer...
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
